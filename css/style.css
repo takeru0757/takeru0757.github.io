@@ -145,8 +145,11 @@ address {
   width: calc(100% / 3);
 }
 
-.list-presentations li iframe {
-  vertical-align: bottom;
+.list-presentations li img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
 }
 
 @media all and (max-width: 767px) {
