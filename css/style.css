@@ -140,25 +140,20 @@ address {
 
 .list-presentations li {
   float: left;
-  margin: 20px 0 0;
+  margin: 0;
   padding: 0 10px;
-  width: 50%;
-}
-
-.list-presentations li:first-child,
-.list-presentations li:nth-child(2) {
-  margin-top: 0;
+  width: calc(100% / 3);
 }
 
 .list-presentations li iframe {
   vertical-align: bottom;
 }
 
-@media all and (max-width: 430px) {
+@media all and (max-width: 767px) {
   .list-presentations li {
     width: 100%;
   }
-  .list-presentations li:nth-child(2) {
+  .list-presentations li:not(:first-child) {
     margin-top: 20px;
   }
 }
