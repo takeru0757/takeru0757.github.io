@@ -9,11 +9,11 @@ body {
 }
 
 a {
-  color: #999;
+  color: #666;
 }
 
 a:hover {
-  color: #666;
+  color: #999;
 }
 
 /* Components =============================================================== */
@@ -31,7 +31,7 @@ h2 {
 h3 {
   margin: 0;
   font-size: 14px;
-  line-height: 20px;
+  line-height: 40px;
 }
 
 p, ul {
@@ -142,7 +142,12 @@ address {
   float: left;
   margin: 0;
   padding: 0 10px;
-  width: calc(100% / 3);
+  width: calc(100% / 2);
+}
+
+.list-presentations li:not(:nth-child(1)),
+.list-presentations li:not(:nth-child(2)) {
+  margin-top: 20px;
 }
 
 .list-presentations li img {
@@ -150,6 +155,7 @@ address {
   max-width: 100%;
   height: auto;
   border-radius: 5px;
+  border: 1px solid #e0e0e0;
 }
 
 @media all and (max-width: 767px) {
@@ -159,6 +165,12 @@ address {
   .list-presentations li:not(:first-child) {
     margin-top: 20px;
   }
+}
+
+/* .list-articles ----------------------------------------------------------- */
+
+.list-articles li:not(:first-child) {
+    margin-top: 10px;
 }
 
 /* Utilities ================================================================ */
