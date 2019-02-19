@@ -1,0 +1,9 @@
+# Site settings
+title: takeru0757
+email: takeru0757@gmail.com
+
+# Build settings
+timezone: Asia/Tokyo
+markdown: kramdown
+sass:
+  style: compressed

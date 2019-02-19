@@ -1,0 +1,8 @@
+# ruby
+/.bundle/
+/vendor/bundle
+
+# jekyll
+_site
+.sass-cache
+.jekyll-metadata

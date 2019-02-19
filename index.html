@@ -1,100 +1,96 @@
-<!DOCTYPE html>
-<html lang="ja">
-  <head>
-    <!-- Global Site Tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-107130941-1"></script>
-    <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments)};
-    gtag('js', new Date());
-    gtag('config', 'UA-107130941-1');
-    </script>
+---
+layout: default
+---
 
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-    <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no">
+<h2>Profile</h2>
 
-    <title>takeru0757</title>
+<div class="profile" itemscope itemtype="http://schema.org/Person">
+  <p class="profile-image"><img itemprop="image" src="{{ '/assets/img/profile.jpg' | absolute_url }}" alt="Takeru Hirose" /></p>
+  <div class="profile-text">
+    <p><strong itemprop="name">Takeru Hirose</strong></p>
+    <p itemprop="jobTitle">Software Engineer (Web Application)</p>
+  </div>
+</div>
 
-    <script src="https://use.fontawesome.com/b0e517a0d5.js"></script>
-    <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/style.css?v=1508914800">
-  </head>
-  <body>
-    <div id="wrapper">
+<h3>Skills</h3>
 
-      <header id="header">
-        <h1>takeru0757</h1>
-        <ul class="list-accounts clearfix">
-          <li><a href="https://www.facebook.com/takeru0757" target="_blank"><i class="fa fa-facebook-square" aria-hidden="true"></i></a></li>
-          <li><a href="https://twitter.com/takeru0757" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-          <li><a href="https://www.instagram.com/takeru0757/" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-          <li><a href="https://github.com/takeru0757" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a></li>
-        </ul>
-        <p class="lead">UX Designer / Engineer</p>
-      </header>
+<ul class="list-skills">
+  <li><a href="https://www.ruby-lang.org/">Ruby</a>
+    <ul>
+      <li><a href="https://rubyonrails.org/">Ruby on Rails</a></li>
+    </ul>
+  </li>
+  <li><a href="http://php.net/">PHP</a>
+    <ul>
+      <li><a href="https://laravel.com/">Laravel</a></li>
+      <li><a href="https://wordpress.org/">WordPress</a></li>
+    </ul>
+  </li>
+  <li><a href="https://developer.mozilla.org/docs/Web/JavaScript">JavaScript</a>
+    <ul>
+      <li><a href="https://reactjs.org/">React</a></li>
+      <li><a href="https://redux.js.org/">Redux</a></li>
+      <li><a href="https://vuejs.org/">Vue.js</a></li>
+      <li><a href="https://vuex.vuejs.org/">Vuex</a></li>
+      <li><a href="https://jquery.com/">jQuery</a></li>
+    </ul>
+  </li>
+  <li><a href="https://developer.mozilla.org/docs/Web/HTML"><abbr title="HyperText Markup Language">HTML</abbr></a></li>
+  <li><a href="https://developer.mozilla.org/docs/Web/CSS"><abbr title="Cascading Style Sheets">CSS</abbr></a>
+    <ul>
+      <li><a href="http://sass-lang.com/">Sass</a></li>
+      <li><a href="http://lesscss.org/">Less</a></li>
+    </ul>
+  </li>
+  <!-- <li><a href="https://www.mysql.com/">MySQL</a></li> -->
+  <!-- <li><a href="https://www.elastic.co/products/elasticsearch">Elasticsearch</a></li> -->
+  <li><a href="https://www.docker.com/">Docker</a></li>
+  <li><a href="https://aws.amazon.com/">Amazon Web Services (AWS)</a></li>
+  <li>and more.</li>
+</ul>
 
-      <h2>Skills</h2>
+<h3>Interests</h3>
 
-      <ul class="list-skills">
-        <li>UX Design</li>
-        <li>Ruby (<a href="https://rubyonrails.org/" target="_blank">Ruby on Rails</a>)</li>
-        <li>PHP (<a href="https://laravel.com/" target="_blank">Laravel</a>, <a href="https://wordpress.org/" target="_blank">WordPress</a>)</li>
-        <li>JavaScript</li>
-        <li>Swift (iOS)</li>
-        <li>HTML+CSS</li>
-        <li>and more.</li>
-      </ul>
+<ul class="list-skills">
+  <li>Product Management</li>
+  <li>Domain-Driven Design (DDD)</li>
+  <li>Design Guidelines / Systems</li>
+  <li>Human-Centered Design (HCD)</li>
+  <li><abbr title="User Experience Design">UX</abbr> Design</li>
+  <li>Information Architecture (IA)</li>
+  <li>and more.</li>
+</ul>
 
-      <!--
-      <h2>Works</h2>
+<h3>Experience</h3>
 
-      <div class="works-app">
-        <h3 class="appname">Arekara - Remember Important Dates and Events</h3>
-        <figure class="appicon"><img src="img/appicon-arekara.jpg" alt="Arekara - Remember Important Dates and Events"></figure>
-        <p class="applink"><a href="https://itunes.apple.com/us/app/arekara-remember-important-dates-and-events/id1031164747?mt=8" style="display:inline-block;overflow:hidden;background:url(//linkmaker.itunes.apple.com/assets/shared/badges/ja-jp/appstore-lrg.svg) no-repeat;width:135px;height:40px;background-size:contain;"></a></p>
-      </div>
+<ul>
+  <li>Developed web applications. (Frontend, backend and infrastructure)</li>
+  <li>Built a design team, and led a project developing design guidelines.</li>
+  <li>Developed and released iOS apps (personal work).</li>
+</ul>
 
-      <div class="works-app">
-        <h3 class="appname">NekoUta - Music Player with Cats</h3>
-        <figure class="appicon"><img src="img/appicon-nekouta.png" alt="NekoUta - Music Player with Cats"></figure>
-        <p class="applink"><a href="https://itunes.apple.com/us/app/nekouta-music-player-with-cats/id1012841531?mt=8" style="display:inline-block;overflow:hidden;background:url(//linkmaker.itunes.apple.com/assets/shared/badges/ja-jp/appstore-lrg.svg) no-repeat;width:135px;height:40px;background-size:contain;"></a></p>
-      </div>
-      -->
+<h2>Presentations</h2>
 
-      <h2>Presentations</h2>
+<ul class="list-presentations">
+  {% for item in site.data.presentations %}
+  <li><a href="{{ item.url }}"><img src="{{ item.image }}" alt="{{ item.title }}" /></a></li>
+  {% endfor %}
+</ul>
 
-      <ul class="list-presentations clearfix">
-        <li><a href="https://speakerdeck.com/takeru0757/kurasikomutolaraveltoddd" target="_blank"><img src="img/presentation-04.jpg" alt="クラシコムとLaravelとDDD" /></a></li>
-        <li><a href="https://speakerdeck.com/takeru0757/kuraudowakusutodezaingaidorain" target="_blank"><img src="img/presentation-03.jpg" alt="クラウドワークスとデザインガイドライン" /></a></li>
-        <li><a href="https://speakerdeck.com/takeru0757/yuzafalsetamefalsedezain-yuzafalsetamefalsedezainzu-zhi" target="_blank"><img src="img/presentation-02.jpg" alt="ユーザーのためのデザイン。ユーザーのためのデザイン組織。" /></a></li>
-        <li><a href="https://speakerdeck.com/takeru0757/tesainatotesainasiyanairen-tetesainzu-zhi-wozuo-ru" target="_blank"><img src="img/presentation-01.jpg" alt="デザイナーとデザイナーじゃない人でデザイン組織を作る" /></a></li>
-      </ul>
-      
-      <h2>Articles</h2>
-      
-      <h3>Kurashicom Engineers' Blog</h3>
-      
-      <ul class="list-articles">
-        <li><a href="https://note.mu/kurashicom_tech/n/n19357987ae56" target="_blank">デザイナーとエンジニアの関係について考える</a></li>
-        <li><a href="https://note.mu/kurashicom_tech/n/n32ab25910783" target="_blank">Rails 歴5年の僕が Laravel で開発するようになって思ったこと。</a></li>
-      </ul>
-      
-      <h3>CrowdWorks Designer Blog</h3>
-      
-      <ul class="list-articles">
-        <li><a href="https://designer.crowdworks.co.jp/entry/nextstage_nite-02" target="_blank">クラウドワークスとデザインガイドライン（Nextstage Nite vol.2 登壇レポート）</a></li>
-        <li><a href="https://designer.crowdworks.co.jp/entry/cs_hack-07" target="_blank">ユーザーのためのデザイン。ユーザーのためのデザイン組織。（CS HACK #07 登壇レポート）</a></li>
-        <li><a href="https://designer.crowdworks.co.jp/entry/engineer-at-udg" target="_blank">デザイン組織で働くエンジニアは何をやっているの？</a></li>
-        <li><a href="https://designer.crowdworks.co.jp/entry/ux_service_sketch-27" target="_blank">デザイナーとデザイナーじゃない人でデザイン組織を作る（UX &amp; Service Sketch #27 登壇レポート）</a></li>
-      </ul>
+<h2>Articles</h2>
 
-      <footer id="footer" class="clearfix">
-        <hr />
-        <address>&copy; takeru0757 (<a href="takeru0757@gmail.com">takeru0757@gmail.com</a>)</address>
-        <p class="pubdate">Last modified at <time pubdate datetime="2018-09-14T09:00:00+09:00">2018-09-14</time></p>
-      </footer>
+<dl class="list-articles">
+  {% for item in site.data.articles %}
+  <dt><a href="{{ item.url }}">{{ item.title }}</a></dt>
+  <dd><time datetime="{{ item.date | date_to_xmlschema }}">{{ item.date | date: "%b %d, %Y" }}</time> ({{ item.src }})</dd>
+  {% endfor %}
+</dl>
 
-    </div>
-  </body>
-</html>
+<h2>Interviews</h2>
+
+<dl class="list-articles">
+  {% for item in site.data.interviews %}
+  <dt><a href="{{ item.url }}">{{ item.title }}</a></dt>
+  <dd><time datetime="{{ item.date | date_to_xmlschema }}">{{ item.date | date: "%b %d, %Y" }}</time> ({{ item.src }})</dd>
+  {% endfor %}
+</dl>
