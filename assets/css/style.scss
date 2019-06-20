@@ -216,7 +216,7 @@ address {
 
   @media all and (min-width: $container-max-width) {
     > li {
-      flex-basis: calc(100% / 3);
+      flex-basis: calc(100% / 4);
     }
   }
 }
